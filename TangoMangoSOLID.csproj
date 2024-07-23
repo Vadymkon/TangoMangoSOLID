@@ -99,6 +99,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Auth\AuthGooglePuppetter.cs" />
+    <Compile Include="Classes\Auth\AuthTangoPuppetter.cs" />
+    <Compile Include="Interfaces\AuthGoogle.cs" />
+    <Compile Include="Interfaces\AuthTango.cs" />
+    <Compile Include="Classes\BrowserPuppetter.cs" />
+    <Compile Include="Classes\PagePuppetter.cs" />
+    <Compile Include="Interfaces\Browser.cs" />
+    <Compile Include="Interfaces\Page.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -106,5 +114,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
